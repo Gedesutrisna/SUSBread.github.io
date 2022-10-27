@@ -195,7 +195,8 @@ section{
 }
 
 .menu .box-container .box img{
-    height: 10rem;
+    height: 20rem;
+    width: 100%;
 }
 
 .menu .box-container .box h3{
@@ -268,6 +269,7 @@ section{
     display: flex;
     background:var(--black);
     flex-wrap: wrap;
+
 }
 
 .contact .row .map{
@@ -280,6 +282,7 @@ section{
     flex:1 1 45rem;
     padding:5rem 2rem;
     text-align: center;
+    border: 2px solid #e74c3a;
 }
 
 .contact .row form h3{
