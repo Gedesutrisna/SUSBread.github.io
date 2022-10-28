@@ -2,7 +2,7 @@
 
 :root{
     --main-color:#2277e7;
-    --black:#fcee47;
+    --black:#fff7a5;
     --bg:#ffffff;
     --grey:grey;
     --border:.1rem solid rgba(255,255,255,.3);
@@ -120,7 +120,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(img/png_20221028_160347_0000-removebg-preview.png) no-repeat ;
+    background:url(img/pemuda1.png)  ;
     background-size: cover;
     background-position: center;
     border-bottom: 2px solid #e74c3a;
@@ -195,7 +195,7 @@ section{
 }
 
 .menu .box-container .box img{
-    height: 20rem;
+    height: 25rem;
     width: 100%;
 }
 
@@ -397,7 +397,7 @@ section{
     .header .navbar{
         position: absolute;
         top:100%; right: -100%;
-        background: #fff;
+        background: var(--black);
         width: 30rem;
         height: calc(100vh - 9.5rem);
     }
@@ -407,16 +407,11 @@ section{
     }
 
     .header .navbar a{
-        color:var(--black);
+        color:var(--bg);
         display: block;
-        margin:1.5rem;
+        margin:3rem;
         padding:.5rem;
         font-size: 2rem;
-    }
-
-    .header .search-form{
-        width: 90%;
-        right: 2rem;
     }
 
     .home{
